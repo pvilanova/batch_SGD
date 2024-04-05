@@ -1,7 +1,7 @@
-### Adaptive Batch Size Selection for SGD
+### On the equivalence of different adaptive batch size selection strategies for stochastic gradient descent methods
 
 #### Overview
-This repository contains the MATLAB implementation of the methods discussed in the paper "On the Equivalence of Different Adaptive Batch Size Selection Strategies for Stochastic Gradient Descent Methods" by Luis Espath, Sebastian Krumscheid, Raul Tempone, and Pedro Vilanova. The paper presents a theoretical analysis and numerical experiments demonstrating the equivalence of two batch size selection strategies for Stochastic Gradient Descent (SGD) methods: the norm test and the inner product/orthogonality test.
+This repository contains the MATLAB implementation of the methods discussed in the paper "On the Equivalence of Different Adaptive Batch Size Selection Strategies for Stochastic Gradient Descent Methods" by Luis Espath, Sebastian Krumscheid, Raul Tempone, and Pedro Vilanova, https://arxiv.org/abs/2109.10933. The paper presents a theoretical analysis and numerical experiments demonstrating the equivalence of two batch size selection strategies for Stochastic Gradient Descent (SGD) methods: the norm test and the inner product/orthogonality test.
 
 #### Key Concepts
 - **Statistical Error Decomposition**: The statistical error in estimating the expected gradient is decomposed, leading to two distinct batch size selection tests: the norm test and the inner/orthogonality test.
